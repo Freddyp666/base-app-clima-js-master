@@ -64,6 +64,16 @@ button:hover {
   color: #2c3e50;
   font-size: 18px;
   text-align: left;
+  line-height: 1.6;
+}
 
-
+#weatherDate img {
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px rgba(20, 16, 16, 0.1);
 }

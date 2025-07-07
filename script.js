@@ -12,7 +12,6 @@ document.getElementById('btnSearch').addEventListener('click', () => {
 
 function fetchWeatherDate(city) {
     let urlFull = `${url_base}?q=${city}&appid=${api_key}`;
-    console.log(urlFull);
 
     fetch(urlFull)
         .then((response) => response.json())
@@ -21,7 +20,6 @@ function fetchWeatherDate(city) {
 }
 
 function showWeatherData(data) {
-    console.log(data);
     const divWeatherDate = document.getElementById("weatherDate");
 
     divWeatherDate.innerHTML = "";
@@ -29,11 +27,14 @@ function showWeatherData(data) {
     const temperature = data.main.temp;
     const weatherDescription = data.weather[0].description;
     const humidity = data.main.humidity;
+    const iconCode = data.weather[0].icon;
 
     divWeatherDate.innerHTML = `
-        <h2>Clima en ${cityName}</h2>
-        <p>Temperatura: ${(temperature - 273.15).toFixed(2)} °C</p>
-        <p>Descripción: ${weatherDescription}</p>
-        <p>Humedad: ${humidity}%</p>
+        <h2>Weather in ${cityName}</h2>
+        <p>Temperature: ${(temperature - 273.15).toFixed(2)} °C</p>
+        <p>Description: ${weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1)}</p>
+        <p>Humidity: ${humidity}%</p>
+        <p>Wind Speed: ${data.wind.speed} m/s</p>
+        <img src="https://openweathermap.org/img/wn/${iconCode}.png" alt="${weatherDescription}">
     `;
 }

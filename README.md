@@ -26,7 +26,3 @@ Este es un proyecto sencillo que utiliza la API de **OpenWeather** para obtener 
 2. Haz clic en el botón "Buscar".
 3. Se mostrará el clima actual de la ciudad, incluyendo la temperatura, la descripción y la humedad.
 
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.

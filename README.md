@@ -1,28 +1,28 @@
-# Proyecto del Clima con API de OpenWeather
+# Weather App with OpenWeather API
 
-Este es un proyecto sencillo que utiliza la API de **OpenWeather** para obtener información sobre el clima de una ciudad ingresada por el usuario. El proyecto está hecho con **HTML**, **CSS** y **JavaScript**.
+This is a simple project that uses the **OpenWeather** API to fetch weather information for a city entered by the user. The project is built using **HTML**, **CSS**, and **JavaScript**.
 
-## Características
+## Features
 
-- Consultar el clima actual de cualquier ciudad.
-- Muestra la temperatura en grados Celsius.
-- Muestra la descripción del clima, la humedad y la velocidad del viento.
-- Usa la API de OpenWeather para obtener los datos.
+- Get the current weather for any city.
+- Shows temperature in Celsius.
+- Displays weather description, humidity, and wind speed.
+- Uses the OpenWeather API to fetch the data.
 
-## Instalación
+## Installation
 
-1. Clona este repositorio:
+1. Clone this repository:
     ```bash
-    git clone https://github.com/tuusuario/tu-repositorio.git
+    git clone https://github.com/Freddyp666/base-app-clima-js-master.git
     ```
 
-2. Abre el archivo `index.html` en tu navegador para ver la página.
+2. Open the `index.html` file in your browser to see the app in action.
 
-3. Si deseas modificar el proyecto, puedes editar el archivo `script.js` y el `index.html` según tus necesidades.
+3. If you'd like to modify the project, you can edit the `script.js` and `index.html` files as needed.
 
-## Cómo usar
+## How to Use
 
-1. Ingresa el nombre de una ciudad en el campo de texto.
-2. Haz clic en el botón "Buscar".
-3. Se mostrará el clima actual de la ciudad, incluyendo la temperatura, la descripción y la humedad.
+1. Enter the name of a city in the input field.
+2. Click the "Search" button.
+3. The current weather for the city will be displayed, including temperature, description, and humidity.
 

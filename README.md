@@ -21,8 +21,9 @@ This is a simple project that uses the **OpenWeather** API to fetch weather info
 3. If you'd like to modify the project, you can edit the `script.js` and `index.html` files as needed.
 
 ## How to Use
-
 1. Enter the name of a city in the input field.
 2. Click the "Search" button.
 3. The current weather for the city will be displayed, including temperature, description, and humidity.
 
+## Link netlify
+https://aplication-clima-javascript-consult.netlify.app/
